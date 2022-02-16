@@ -10,7 +10,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        return Content("Web Development");
+       return View();
     }
 
     public IActionResult About()

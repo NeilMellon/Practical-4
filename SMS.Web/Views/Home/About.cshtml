@@ -1,0 +1,18 @@
+@model AboutViewModel
+
+
+
+<h1>About Page</h1>
+<h3>@Model.Company</h3>
+
+<p>Student management system was created on @Model.FormedStr or @Model.Days days ago </p>
+
+
+<P>Company name is @Model.Company</P>
+
+<p>The Time is now: @DateTime.Now</p>       
+
+<p>
+ Last week this time :  @(DateTime.Now - TimeSpan.FromDays(7))
+</p>
+

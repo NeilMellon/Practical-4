@@ -1,4 +1,4 @@
-namespace SMS.web.Models;
+namespace SMS.Web.Models;
 
 public class ErrorViewModel
 {
